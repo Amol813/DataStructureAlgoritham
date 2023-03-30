@@ -1,7 +1,8 @@
-﻿using DataStructureAlgoritham;
+﻿
+using DataStructureAlgorithm;
 using System;
 using System.IO;
-namespace DataStructureAlgorithm
+namespace DataStructureAlgoritham
 {
     public class Program
     {
@@ -14,6 +15,10 @@ namespace DataStructureAlgorithm
 
             InsertionSort sort = new InsertionSort();
             sort.ReadFile("E:\\pl_.net_exercise\\DataStructureAlgoritham\\DataStructureAlgoritham\\File1.txt");
+
+            BubbleSort bubbleSort = new BubbleSort();
+            bubbleSort.ReadFile("E:\\pl_.net_exercise\\DataStructureAlgoritham\\DataStructureAlgoritham\\Filename.txt");
         }
+
     }
 }
