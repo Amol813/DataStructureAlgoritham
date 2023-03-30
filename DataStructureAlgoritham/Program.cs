@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DataStructureAlgoritham;
+using System;
 using System.IO;
 namespace DataStructureAlgorithm
 {
@@ -11,6 +12,8 @@ namespace DataStructureAlgorithm
             BinarySearch binarySearch = new BinarySearch();
             binarySearch.ReadFile("E:\\pl_.net_exercise\\DataStructureAlgoritham\\DataStructureAlgoritham\\File1.txt");
 
+            InsertionSort sort = new InsertionSort();
+            sort.ReadFile("E:\\pl_.net_exercise\\DataStructureAlgoritham\\DataStructureAlgoritham\\File1.txt");
         }
     }
 }
