@@ -1,5 +1,5 @@
 ﻿
-using AlgorithmsProblem;
+using DataSrtuctureAlgoritham;
 using DataStructureAlgorithm;
 using System;
 using System.IO;
@@ -22,6 +22,9 @@ namespace DataStructureAlgoritham
 
             Anagram anagram = new Anagram();
             anagram.CheckAnagram();
+
+            CustomizeString customize = new CustomizeString();
+            customize.customize();
         }
 
     }
